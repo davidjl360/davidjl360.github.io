@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - David J Likar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">David J Likar</div>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="margin-top: 70px;">
+        <section class="projects-hero">
+            <div class="container">
+                <h1>Selected Work</h1>
+                <p class="projects-subtitle">Cross-domain architecture, security, and connectivity initiatives at enterprise healthcare scale</p>
+            </div>
+        </section>
+
+        <section class="projects-content">
+            <div class="container">
+                <div class="projects-grid">
+
+                    <div class="project-card-detailed">
+                        <div class="project-info">
+                            <h3>Large US Healthcare Provider Cloud Connectivity</h3>
+                            <p class="project-description">Led and supported architecture and troubleshooting for customer-to-GE HealthCare AWS connectivity, bringing together AWS, Cisco, TotalUptime, GE HealthCare, and the customer's teams to isolate routing and VPN issues.</p>
+
+                            <div class="project-details">
+                                <h4>Problem Solved &amp; Impact</h4>
+                                <p>Investigated a tunnel that was established but had no return traffic, coordinated multi-team diagnostic work, and contributed to resolution of the customer connectivity issue. The resolution received explicit recognition for the team's effort.</p>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Site-to-Site VPN</span>
+                                <span class="tech-tag">BGP</span>
+                                <span class="tech-tag">Cisco Networking</span>
+                                <span class="tech-tag">Routing</span>
+                                <span class="tech-tag">Packet Captures</span>
+                                <span class="tech-tag">MSS/MTU</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card-detailed">
+                        <div class="project-info">
+                            <h3>AWS Security Incident &amp; Threat Investigation</h3>
+                            <p class="project-description">Investigated an AWS Trust &amp; Safety notification involving potentially malicious traffic against a production-facing AWS workload.</p>
+
+                            <div class="project-details">
+                                <h4>Problem Solved &amp; Impact</h4>
+                                <p>Correlated WAF, ALB, and EKS telemetry and determined the malicious probe was blocked at the edge with no evidence it reached the EKS backend. Identified seven observability and security gaps, and clearly distinguished strong temporal correlation from definitive IP-level attribution.</p>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">AWS WAF</span>
+                                <span class="tech-tag">ALB</span>
+                                <span class="tech-tag">CloudWatch</span>
+                                <span class="tech-tag">EKS</span>
+                                <span class="tech-tag">CloudTrail</span>
+                                <span class="tech-tag">Security Groups</span>
+                                <span class="tech-tag">Managed WAF Rules</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card-detailed">
+                        <div class="project-info">
+                            <h3>Palo Alto Networks Firewall &amp; Cloud Security Architecture</h3>
+                            <p class="project-description">Designed and governed enterprise Palo Alto Networks security solutions across cloud and data-center environments, with deep platform knowledge spanning VM-Series, Panorama, and PAN-OS.</p>
+
+                            <div class="project-details">
+                                <h4>Scope &amp; Capabilities</h4>
+                                <p>Worked across Gateway Load Balancer, centralized inspection, SSL/TLS decryption, DPI, mTLS, App-ID, Threat Prevention, Dynamic Address Groups, security policies, routing, VPN, NAT, monitoring, and automated threat response.</p>
+
+                                <h4>Problem Solved &amp; Impact</h4>
+                                <p>Led or advised AWS integration, multi-AZ firewall sizing, zero-downtime certificate rotation, security vulnerability response, Palo Alto API/GitLab automation, and Databricks/PrivateLink inspection. Translated firewall technology into scalable enterprise security architecture, operational runbooks, and cloud networking standards, including operational monitoring and lifecycle/licensing management.</p>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">VM-Series</span>
+                                <span class="tech-tag">Panorama</span>
+                                <span class="tech-tag">PAN-OS</span>
+                                <span class="tech-tag">Gateway Load Balancer</span>
+                                <span class="tech-tag">SSL/TLS Decryption</span>
+                                <span class="tech-tag">App-ID</span>
+                                <span class="tech-tag">Threat Prevention</span>
+                                <span class="tech-tag">mTLS</span>
+                                <span class="tech-tag">PrivateLink</span>
+                                <span class="tech-tag">API / GitLab Automation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card-detailed">
+                        <div class="project-info">
+                            <h3>Cloud Vulnerability &amp; Security Remediation</h3>
+                            <p class="project-description">Provided architecture-level guidance across vulnerability remediation efforts involving AWS and Azure workloads, Ubuntu, Wiz findings, and enterprise patching processes.</p>
+
+                            <div class="project-details">
+                                <h4>Problem Solved &amp; Impact</h4>
+                                <p>Helped teams determine whether findings required patching, additional Ubuntu Pro/ESM capability, vendor involvement, tagging correction, or further validation, rather than blindly applying scanner recommendations. Surfaced operational risks when QMS constraints affected Code Red remediation.</p>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">AWS EC2</span>
+                                <span class="tech-tag">Ubuntu Pro / ESM</span>
+                                <span class="tech-tag">Wiz</span>
+                                <span class="tech-tag">Vulnerability Mgmt</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">OS Patching</span>
+                                <span class="tech-tag">Cloud Governance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card-detailed">
+                        <div class="project-info">
+                            <h3>Service Maturity &amp; CloudOps Continuous Improvement</h3>
+                            <p class="project-description">Contributed to improving CloudOps service maturity, governance, operational checklists, evidence validation, process ownership, and automation.</p>
+
+                            <div class="project-details">
+                                <h4>Problem Solved &amp; Impact</h4>
+                                <p>Helped move operations from checklist compliance toward measurable service maturity by examining automation opportunities, redundant controls, evidence sources, milestone gating, and process effectiveness. Related work included certificate-renewal governance, alert automation, and knowledge-base analytics.</p>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">Well-Architected</span>
+                                <span class="tech-tag">CloudOps / SRE</span>
+                                <span class="tech-tag">MMS / D4OPS</span>
+                                <span class="tech-tag">Automation</span>
+                                <span class="tech-tag">Confluence</span>
+                                <span class="tech-tag">KPIs &amp; SLOs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card-detailed">
+                        <div class="project-info">
+                            <h3>Enterprise Cloud Networking &amp; Migration Architecture</h3>
+                            <p class="project-description">Supported complex cloud migration and connectivity scenarios spanning AWS, Azure, and GCP, including isolated-account architecture and large-scale healthcare imaging migrations.</p>
+
+                            <div class="project-details">
+                                <h4>Problem Solved &amp; Impact</h4>
+                                <p>Evaluated a GCP → isolated AWS → internal AWS transfer architecture while challenging the appropriate security and governance path. Separately supported Azure-to-AWS/Inteleshare migration planning involving more than 22 million exams and approximately 706 TB of imaging data across three healthcare customers.</p>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">GCP</span>
+                                <span class="tech-tag">Direct Connect</span>
+                                <span class="tech-tag">VPN</span>
+                                <span class="tech-tag">IAM</span>
+                                <span class="tech-tag">S3 / Data Transfer</span>
+                                <span class="tech-tag">DICOM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 David J Likar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        .projects-hero {
+            background: linear-gradient(135deg, #0f2a43 0%, #1b4965 55%, #2a6f97 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .projects-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .projects-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.92;
+            max-width: 760px;
+            margin: 0 auto;
+        }
+
+        .projects-content {
+            padding: 80px 0;
+            background: #f6f5f2;
+        }
+
+        .projects-grid {
+            display: grid;
+            gap: 2.5rem;
+        }
+
+        .project-card-detailed {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(15,42,67,0.08);
+            overflow: hidden;
+            border-left: 5px solid #2a6f97;
+        }
+
+        .project-info {
+            padding: 2.25rem;
+        }
+
+        .project-info h3 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            color: #1e293b;
+        }
+
+        .project-description {
+            color: #475569;
+            margin-bottom: 1.5rem;
+            font-size: 1.08rem;
+            line-height: 1.7;
+        }
+
+        .project-details h4 {
+            color: #1b4965;
+            margin: 1rem 0 0.5rem;
+            font-size: 1.05rem;
+        }
+
+        .project-details p {
+            color: #475569;
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+
+        .project-tech {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .projects-hero h1 {
+                font-size: 2rem;
+            }
+
+            .project-info {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+
+    <script>
+        function toggleMobileMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const toggle = document.querySelector('.mobile-menu-toggle');
+            navMenu.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
